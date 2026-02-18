@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import TestComponent from './components/TestComponent'
+import Component1 from './components/Component1'
+import JSXRules from './components/JSXRules'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <TestComponent/>
+      <Component1/>
+      <JSXRules/>
     </>
   )
 }
